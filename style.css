@@ -317,8 +317,8 @@ flex-wrap: wrap;
     height: 80px;
     margin-top: -60px;
     margin-bottom: 0px;
-    margin-left: -20px;
-    padding-right: 10px;
+    margin-left: -23px;
+    margin-right: 10px;
     z-index:1;
     border-radius: 50px 50px 50px 50px;
   
@@ -987,5 +987,64 @@ padding: 0px;
     transition: filter 0.2s ease-in-out;
 }
 /*media querys*/
+@media(max-width:1024px){
+   .presentacion{
+    background-color: rgb(206, 127, 127); 
+    max-width: 1024px;
+   } 
+   .contenedor{
+    flex-direction: column;
+    align-items: center;
+   }
+   .elementoizq{
+    width: 100%;
+    text-align: center;
+   }
+   #cont2{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   #cont2 p{
+   width: 100%;
+   text-align: center;
+   }
+   #datospersonales{
+    display: flex;
+    flex-direction: column;
+   
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .columnaone{
+    justify-content: space-between;
+   }
+   .sectionbotones{
+    gap: 35px;
+    justify-content: center;
+   }
+   .elementoder{
+    width: 100%;
+    text-align: center;
+   }
+   .elementoder img{
+    width: 650px;
+   }
+   #franjaseccion{
+    width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   #franjaseccion a{
+    margin-right: 10px;
+    margin-left: 10px;
+
+   }
+}
+
+
+
+
 /*menu hamburguesa*/
 
