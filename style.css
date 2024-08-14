@@ -1050,11 +1050,18 @@ padding: 0px;
 }
 /*media query mobile*/
 @media(max-width:413px){
+    body {
+        overflow-x: hidden;
+      }
+      
     .header{
         max-width: 390px;
     }
     .presentacion{
         max-width: 390px;
+    }
+    .h2roll{
+        font-size: 44px;
     }
 .contenedor{
     max-width: 390px;
@@ -1067,12 +1074,12 @@ padding: 0px;
     align-items: center;
 }
 #franjaseccion{
-    max-width:390px;
+    max-width:386px;
    
 }
 
 #idcont img{
-max-width: 100%;
+max-width: 90%;
 }
 #franjaiconos i{
     margin-right: 5px;
