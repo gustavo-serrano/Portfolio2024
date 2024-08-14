@@ -988,6 +988,9 @@ padding: 0px;
 }
 /*media query laptos*/
 @media(max-width:1024px){
+    .header{
+        max-width: 1024px;
+    }
     .listas{
         display: none;
     }
@@ -1047,6 +1050,9 @@ padding: 0px;
 }
 /*media query mobile*/
 @media(max-width:768px){
+    .header{
+        max-width: 768px;
+    }
 .contenedor{
     max-width: 768px;
 }
@@ -1133,7 +1139,9 @@ margin-top: 40px;
     width: 100%;
     margin-bottom: 50px;
 }
-
+.header{
+    max-width: 768px;
+}
 }
 
 
