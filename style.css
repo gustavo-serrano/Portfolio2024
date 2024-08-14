@@ -1051,16 +1051,16 @@ padding: 0px;
 /*media query mobile*/
 @media(max-width:413px){
     .header{
-        max-width: 768px;
+        max-width: 390px;
     }
     .presentacion{
-        max-width: 413px;
+        max-width: 390px;
     }
 .contenedor{
-    max-width: 384px;
+    max-width: 390px;
 }
 .elementoder{
-    max-width: 413px;
+    max-width: 390px;
 }
 #contenedorexp{
     flex-direction: column;
@@ -1068,7 +1068,7 @@ padding: 0px;
 }
 #franjaseccion{
     max-width:390px;
-    right: 3px;
+   
 }
 
 #idcont img{
@@ -1144,7 +1144,7 @@ margin-top: 40px;
    align-self: center;
 }
 .carousel-item img{
-    max-width: 100% !important;
+    max-width: 90% !important;
     max-height: 310px !important;
 }
 .container{
@@ -1159,7 +1159,7 @@ margin-top: 40px;
     margin-bottom: 50px;
 }
 .header{
-    max-width: 413px;
+    max-width: 390px;
 }
 }
 
