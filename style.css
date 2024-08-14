@@ -1049,16 +1049,33 @@ padding: 0px;
    }
 }
 /*media query mobile*/
-@media(max-width:768px){
+@media(max-width:414px){
     .header{
         max-width: 768px;
     }
+    .presentacion{
+        max-width: 414px;
+    }
 .contenedor{
-    max-width: 768px;
+    max-width: 384px;
+}
+.elementoder{
+    max-width: 414px;
 }
 #contenedorexp{
     flex-direction: column;
     align-items: center;
+}
+#franjaseccion{
+    max-width:390px ;
+}
+#idcont img{
+max-width: 100%;
+}
+#franjaiconos i{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
 }
 #expizq{
     padding-right: 0px;
