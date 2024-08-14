@@ -130,7 +130,7 @@ margin-right: 10px;
     color: #000000;
     font-family: "Nunito", Sans-serif;
     font-size: 60px;
-    font-weight: bold;
+   
     line-height: 1.2em;
     padding:0;
     margin:0;
@@ -995,7 +995,7 @@ padding: 0px;
         display: none;
     }
    .presentacion{
-    background-color: rgb(206, 127, 127); 
+    
     max-width: 1024px;
    } 
    .contenedor{
@@ -1024,8 +1024,8 @@ padding: 0px;
     margin-right: auto;
    }
    .columnaone{
-    justify-content: space-between;
-   }
+flex-direction: column;   
+}
    .sectionbotones{
     gap: 35px;
     justify-content: center;
@@ -1061,6 +1061,12 @@ padding: 0px;
     .header{
         max-width: 390px;
     }
+    .titulo{
+        padding-left: 15px;
+    }
+    .botoncontact{
+        display: none;
+    }
     .presentacion{
         max-width: 390px;
     }
@@ -1073,6 +1079,16 @@ padding: 0px;
 .elementoder{
     max-width: 390px;
 }
+.sectionbotones{
+    flex-direction: column;
+    gap: 20px;
+}
+#botonhire{
+    width: 90%;
+}
+#botondown{
+    width: 90%;
+}
 #contenedorexp{
     flex-direction: column;
     align-items: center;
@@ -1080,6 +1096,22 @@ padding: 0px;
 #franjaseccion{
     max-width:386px;
    
+}
+#pexp{
+    width: 90%;
+}
+#pskills{
+    width: 90%;
+}
+#pproyectos{
+    width: 90%;
+}
+#infinite div.highway-barrier {
+    &::before, &::after {
+       
+        width: 50px;
+       
+    }
 }
 
 #idcont img{
@@ -1122,10 +1154,20 @@ margin-top: 40px;
 #cuadradoexpder2{
 margin-top: 40px;
 }
+.expparrafo ul {
+    text-align: left;
+}
+.eduparrafo ul{
+    text-align: left;
+}
 .edufechaizq{
     right:0px;
     text-align: center;
     margin-bottom: 25px;
+}
+#edutitulo{
+    text-align: center;
+
 }
 .edufechaizq span{
     color: white;
@@ -1155,8 +1197,8 @@ margin-top: 40px;
    align-self: center;
 }
 .carousel-item img{
-    max-width: 90% !important;
-    max-height: 310px !important;
+    max-width: 100% !important;
+    max-height: 230px !important;
 }
 .container{
     max-width: 90% !important;
