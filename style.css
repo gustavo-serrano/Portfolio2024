@@ -988,6 +988,9 @@ padding: 0px;
 }
 /*media query laptos*/
 @media(max-width:1024px){
+    .listas{
+        display: none;
+    }
    .presentacion{
     background-color: rgb(206, 127, 127); 
     max-width: 1024px;
@@ -1044,6 +1047,9 @@ padding: 0px;
 }
 /*media query mobile*/
 @media(max-width:768px){
+.contenedor{
+    max-width: 768px;
+}
 #contenedorexp{
     flex-direction: column;
     align-items: center;
