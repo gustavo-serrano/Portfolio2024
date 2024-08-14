@@ -1049,18 +1049,18 @@ padding: 0px;
    }
 }
 /*media query mobile*/
-@media(max-width:414px){
+@media(max-width:413px){
     .header{
         max-width: 768px;
     }
     .presentacion{
-        max-width: 414px;
+        max-width: 413px;
     }
 .contenedor{
     max-width: 384px;
 }
 .elementoder{
-    max-width: 414px;
+    max-width: 413px;
 }
 #contenedorexp{
     flex-direction: column;
@@ -1159,7 +1159,7 @@ margin-top: 40px;
     margin-bottom: 50px;
 }
 .header{
-    max-width: 768px;
+    max-width: 413px;
 }
 }
 
