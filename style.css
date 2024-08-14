@@ -986,7 +986,7 @@ padding: 0px;
     align-content: center; 
     transition: filter 0.2s ease-in-out;
 }
-/*media querys*/
+/*media query laptos*/
 @media(max-width:1024px){
    .presentacion{
     background-color: rgb(206, 127, 127); 
@@ -1042,8 +1042,93 @@ padding: 0px;
 
    }
 }
+/*media query mobile*/
+@media(max-width:768px){
+#contenedorexp{
+    flex-direction: column;
+    align-items: center;
+}
+#expizq{
+    padding-right: 0px;
+    width: 90%;
+}
+.expfechaizq{
+    right:0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.expfechaizq2{
+    right:0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#cuadradoexpizq2{
+    margin-top: 40px;
+}
+#expder{
+    width: 90%;
+    padding-left: 0px;
+}
+#cuadradoexpderuno{
+margin-top: 40px;
+}
+.expfechader{
+    left:0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#cuadradoexpder2{
+margin-top: 40px;
+}
+.edufechaizq{
+    right:0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.edufechaizq span{
+    color: white;
+    border-color: white;
+}
+#cuadradoeduizq2{
+    margin-top: 40px;
+}
+#cuadradoeduderuno{
+    margin-top: 40px;
+}
+.edufechader{
+    left:0px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.edufechader span{
+    color: white;
+    border-color: white;
+}
+#cuadradoeduder2{
+    margin-top: 40px;
+}
+#carouselExampleRide{
+    margin-top:40px !important;
+   align-items: center;
+   align-self: center;
+}
+.carousel-item img{
+    max-width: 100% !important;
+    max-height: 310px !important;
+}
+.container{
+    max-width: 90% !important;
+}
+#contproyectos{
+    flex-direction: column;
+    margin: 30px auto 0px auto;
+}
+.itemsproyectos{
+    width: 100%;
+    margin-bottom: 50px;
+}
 
-
+}
 
 
 /*menu hamburguesa*/
