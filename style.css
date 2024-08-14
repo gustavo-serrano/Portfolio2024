@@ -1067,8 +1067,10 @@ padding: 0px;
     align-items: center;
 }
 #franjaseccion{
-    max-width:390px ;
+    max-width:390px;
+    right: 3px;
 }
+
 #idcont img{
 max-width: 100%;
 }
