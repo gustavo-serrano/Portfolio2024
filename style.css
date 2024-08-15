@@ -125,6 +125,7 @@ margin-right: 10px;
     padding-bottom: 60px;
     display: flex; 
     justify-content: center;
+
 }
 .h2roll{
     color: #000000;
@@ -275,7 +276,11 @@ overflow: hidden;
         min-width: 72%;
         height: auto;
         display: block;
-        
+       
+    }
+    #idcont img{
+        opacity: 0;
+        animation: aparecer 4s forwards;
     }
     .elementoder img{
         width: 500px;
@@ -367,7 +372,7 @@ flex-wrap: wrap;
 
 }
 #h2exp{
-    color: #202020;
+    color: #ffffff;
     font-family: "Nunito", Sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -379,7 +384,7 @@ flex-wrap: wrap;
 #pexp{
     
     text-align: center;
-    color: #575757;
+    color: #adb5bd;
     font-family: "Work Sans", Sans-serif;
     font-size: 15px;
     line-height: 1.8em;
@@ -394,6 +399,8 @@ flex-wrap: wrap;
 #contsexp{
     padding-top: 20px;
     padding-bottom:20px;
+    opacity: 0;
+    animation: aparecer 7s forwards;
 }
 #contenedorexp{
     max-width: 1140px;
@@ -415,41 +422,44 @@ width: 10%;
 }
 .cuadradoexp{
     border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
+    border-width: 3px 3px 3px 3px;
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
 
 }
 #cuadradoexpizq2{
     border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
+    border-width: 3px 3px 3px 3px;
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 15%;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
 }
 #cuadradoexpderuno{
     border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
+    border-width: 3px 3px 3px 3px;
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 44%;
-
+    background-color: #FFFFFF;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;  
 }
 #cuadradoexpder2{
     border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
+    border-width: 3px 3px 3px 3px;
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 25%;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;
+    background-color: #FFFFFF;
 }
 .expgrupo{
 
@@ -505,16 +515,17 @@ width: 10%;
      text-align: right;
     box-sizing: border-box;
     right: -170px;
-    position:relative; 
+    position:relative;
+    
 
 }
 .expfechaizq span{
     font-size: 12px;
-    color:#202020;
+    color:#adb5bd; 
     font-weight: bold;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color:#6F40C2;
+    border-color:#0a58ca;
     padding: 10px 12px;   
 }
 .expfechaizq2{
@@ -526,11 +537,11 @@ width: 10%;
 }
 .expfechaizq2 span{
     font-size: 12px;
-    color:#202020;
+    color:#adb5bd; 
     font-weight: bold;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color:#6F40C2;
+    border-color:#0a58ca;
     padding: 10px 10px;   
 }
 
@@ -544,17 +555,17 @@ width: 10%;
 }
 .expfechader span{
     font-size: 12px;
-    color:#202020;
+    color:#adb5bd; 
     font-weight: bold;
     margin-bottom: 10px;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color:#6F40C2;
-    padding: 12px 2px;   
+    border-color:#0a58ca;
+    padding: 12px 1px;   
 } 
 
 #exptitulo h4{
-    color: #6F40C2;
+    color: #0a58ca;
     font-family: "Nunito", Sans-serif;
     font-size: 27px;
     font-weight: bold;
@@ -563,7 +574,7 @@ width: 10%;
     margin: 0px 0px 6px 0px;
 }
 .expcompany h6{
-    color: white;
+    color: #0a58ca;
     font-family: "Nunito", Sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -573,7 +584,7 @@ width: 10%;
 
 .expparrafo ul{
     text-align: justify;
-    color: #575757;
+    color: #adb5bd;
     font-family: "Work Sans", Sans-serif;
     font-size: 16px;
     box-sizing: border-box;
@@ -590,11 +601,11 @@ width: 10%;
 }
 .edufechaizq span{
     font-size: 15px;
-    color:#6F40C2;
+    color:#adb5bd;
     font-weight: bold;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color:#6F40C2;
+    border-color:#0a58ca;
     padding: 12px 33px;   
 }
 .edufechader{
@@ -606,22 +617,22 @@ width: 10%;
 }
 .edufechader span{
     font-size: 15px;
-    color:#6F40C2;
+    color:#adb5bd;
     font-weight: bold;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    border-color:#6F40C2;
+    border-color:#0a58ca;
     padding: 12px 25px;   
 } 
 .cuadradoedu{
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;
-background-color: #6F40C2;
+
 }
 #edutitulo h4{
     color: #FFFFFF;
@@ -635,7 +646,7 @@ background-color: #6F40C2;
 
 .eduparrafo ul{
     text-align: justify;
-    color: #ffffff;
+    color: #adb5bd;
     font-family: "Work Sans", Sans-serif;
     font-size: 16px;
     box-sizing: border-box;
@@ -645,8 +656,8 @@ background-color: #6F40C2;
 #cuadradoeduizq2{
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    background-color: #6F40C2;
-    border-color: #6F40C2;
+    
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 25%;
     margin-bottom: 0px;
@@ -655,8 +666,8 @@ background-color: #6F40C2;
 #cuadradoeduderuno{
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #6F40C2;
-    background-color: #6F40C2;
+    border-color: #0a58ca;
+ 
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 28%;
 
@@ -666,8 +677,8 @@ background-color: #6F40C2;
 #cuadradoeduder2{
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    background-color: #6F40C2;
-    border-color: #6F40C2;
+  
+    border-color: #0a58ca;
     box-shadow: 10px 15px 50px 0px rgba(0, 0, 0, 0);
     margin-top: 25%;
     margin-bottom: 0px;
@@ -676,6 +687,8 @@ background-color: #6F40C2;
 #sectioneducacion{
 padding-top: 30px;
     padding-bottom: 20px;
+    opacity: 0;
+    animation: aparecer 12s forwards;
 }
 .divimg{
     width:300px;
@@ -760,7 +773,7 @@ border-color: rgb(29, 142, 187);
 
 /*skill*/
 #h2skills{
-    color: #202020;
+    color: #ffffff;
     font-family: "Nunito", Sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -770,7 +783,7 @@ border-color: rgb(29, 142, 187);
 }
 #pskills{
     text-align: center;
-    color: #575757;
+    color: #adb5bd;
     font-family: "Work Sans", Sans-serif;
     font-size: 15px;
     line-height: 1.8em;
@@ -829,7 +842,7 @@ div.highway-slider {
 	display:flex;
 	justify-content:center;
 	width:100%;
-	height:120px;
+	height:100px;
 	div.highway-barrier {
 		overflow:hidden;
 		position:relative;
@@ -887,7 +900,7 @@ div.highway-slider {
 /*Proyectos*/
 
 #h2proyectos{
-color: #202020;
+color: #ffffff;
     font-family: "Nunito", Sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -899,7 +912,7 @@ color: #202020;
 #pproyectos{
     
         text-align: center;
-        color: #575757;
+        color: #adb5bd;
         font-family: "Work Sans", Sans-serif;
         font-size: 15px;
         line-height: 1.8em;
@@ -924,14 +937,34 @@ color: #202020;
 .itemsproyectos img{
 width: 100%;
 border-radius: 4px 4px 0px 0px;
-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 10px 0 white;
+border-style: solid;
+border-width: 1px;
+border-color: white;
+transition: transform 0.3s ease;
+
+}
+@keyframes aparecer {
+    to {
+      opacity: 1; /* Al final de la animación, la imagen tendrá opacidad 1 (totalmente visible) */
+    }
+  }
+.itemsproyectos img:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 1;
 }
 #textproyecto{
     padding-top: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+    border-style: solid;
+border-width: 0px 1px 1px 1px;
+border-color: white;
+box-shadow: 0  0 15px 0 white;
+transition: transform 0.3s ease;
 }
 #textproyecto h3{
-    color: #202020;  
+    color: white;  
     font-size: 20px;
     text-transform: capitalize;
     line-height: 1.2em;
@@ -939,7 +972,7 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     padding: 0px 20px 25px 20px;
 }
 #fechaproyecto{
-    color: #b1aaaa87; 
+    color: #adb5bd; 
     font-size: 12px;
     padding: 15px 15px;
     margin-bottom: 0;
@@ -1118,12 +1151,14 @@ flex-direction: column;
 
 #idcont img{
 max-width: 90%;
+
 }
 #franjaiconos i{
     margin-right: 5px;
     width: 40px;
     height: 40px;
     font-size: 24px;
+  
 }
 #expizq{
     padding-right: 0px;
@@ -1331,4 +1366,16 @@ margin-top: 40px;
 
 #btn_menu:checked ~ .container_flex .container_menu {
 	right: 0;
+}
+
+
+
+
+#canvas{
+	background-color: #1f242b;
+   
+	width: 100%;
+	height: 428vh;	
+  position: absolute;
+  
 }
