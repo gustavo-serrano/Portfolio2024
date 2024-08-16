@@ -12,14 +12,13 @@ body{
 }
 #headerpadre{
     width: 100%;
-    background-color: #F2F5FF;
+    background-color: #0a58cad4;
 }
 .header{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;    
 max-width: 1140px;
-background-color:#F2F5FF ;
 padding-top: 15px; 
 justify-content:space-between;
 align-items: center;
@@ -30,10 +29,11 @@ margin: auto;
 .titulo{
     padding: 0;
     margin: 0;
-    color: #45237A;
+    color: black;
     font-family: "Nunito", Sans-serif;
     font-size: 36px;
     font-weight: 350;
+    padding-bottom: 05px;
 }
 
 #menuul {
@@ -54,7 +54,7 @@ margin-bottom: 0px;
 }
 .botoncontact{
     margin-right: 38px;
-    background-color: #6F40C2;
+    background-color: #343a40;
     width: 130px;
     height: 40px;
     border-radius: 3.5px;
@@ -64,7 +64,7 @@ margin-bottom: 0px;
     cursor: pointer;
 }  
 .botoncontact:hover{
-    background-color: #45237A; 
+    background-color: black; 
     padding-right:+2px;
     padding-top: +3px;      
 } 
@@ -105,22 +105,22 @@ box-sizing: border-box;
 margin-right: 10px;
 }
 .itemlista{
-    color: #202020;
+    color: white;
     font-family: "Nunito", Sans-serif;
     font-size: 17px;
     
 }
 .itemlista:hover{
-    color: #6F40C2;
+    color: #2e3744;
 }
 .itemlista:focus{
-    color:#6F40C2 ;
+    color:black ;
     outline: none;
 }
 
 /*fin de header*/
 .presentacion{
-    background-color: #F2F5FF;
+    background-color: #1f242b;
     padding-top: 40px;
     padding-bottom: 60px;
     display: flex; 
@@ -128,7 +128,7 @@ margin-right: 10px;
 
 }
 .h2roll{
-    color: #000000;
+    color: #ffffff;
     font-family: "Nunito", Sans-serif;
     font-size: 60px;
    
@@ -139,7 +139,7 @@ margin-right: 10px;
     .parrafodesc{
         
             text-align: left;
-            color: #575757;
+            color: #adb5bd;
             font-family: "Work Sans", Sans-serif;
             font-size: 15px;
             line-height: 1.8em;
@@ -150,17 +150,18 @@ margin-right: 10px;
         font-family: "Work Sans", Sans-serif;
     font-size: 15px;
     font-weight: bold;
+    color: #e2e3e5;
     }
     .spander{
             font-family: "Nunito", Sans-serif;
             font-size: 15px;
-            color: #575757;
+            color: #adb5bd;
     }
     .segundohireme{
         font-family: "Nunito", Sans-serif;
         font-size: 13px;
         font-weight: bold;
-        color: #FFFFFF;
+        color: #ffffff;
         text-decoration: none;
         padding-right: 30px;
         
@@ -169,8 +170,8 @@ margin-right: 10px;
     #botonhire{
 width: 150px;
 height: 52px;
-background-color: #6F40C2;
-border-color: #6F40C2;
+background-color:black;
+border-color: #0a58ca;
 border-style: solid;
  border-width: 1px 1px 1px 1px;
 border-radius: 4px 4px 4px 4px;
@@ -180,7 +181,9 @@ align-items: center;
 justify-content: center;
 overflow: hidden;
 
-
+    }
+    #botonhire a{
+        color: white;
     }
     #botonhire:before{
     position: relative;
@@ -190,7 +193,7 @@ overflow: hidden;
     left: 0;
     width: 30px;
     height: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     animation: shiny-btn1 4s ease-in-out infinite;
     overflow: hidden;
 
@@ -209,21 +212,20 @@ overflow: hidden;
               inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
           
     }
-    #botonhire:hover{
-        background-color:#45237A ;
-     
-    }
+   
+
 
     #botondown{
         width: 170px;
         padding: 15px;
         border-style: solid;
         border-width: 1px 1px 1px 1px;
-        border-color: #6F40C2;
+        border-color: #0a58ca;
         border-radius: 3px;
         transition: background-color 0.3s ease;
         cursor: pointer;
         text-align: center; /* Centra el contenido */
+        
 
     }
     #botondown:active{
@@ -239,7 +241,7 @@ overflow: hidden;
 
 
     #botondown:hover {
-        background-color: #45237A;
+        background-color: black;
         
     }
     #botondown a {
@@ -247,13 +249,13 @@ overflow: hidden;
         font-size: 13px;
         font-weight: bold;
         display: block;
-        color: #5612cf;
+        color: white;
         text-decoration: none; /* Quita el subrayado del enlace */
         transition: color 0.3s ease;
          /* El enlace ocupa todo el ancho del div */
     }
     #botondown:hover a {
-        color: white;
+        color: #088cd8;
     }
 .elementoizq{
         width: 50%; 
@@ -287,7 +289,7 @@ overflow: hidden;
 height: auto;
 border-style: solid;
 border-width: 1px 1px 1px 1px; 
-border-color: #EEEEEE;
+border-color: #6c757d;
 border-radius: 4px 4px 4px 4px;
  }
     .contenedor{
@@ -768,7 +770,13 @@ padding:20px 10px 0px 20px ;
     max-height: 277px;
    
     border-style: solid;
-border-color: rgb(29, 142, 187);
+border-color: #0a58ca;
+}
+.carousel-control-next-icon{
+    background: #0a58ca;
+}
+.carousel-control-prev-icon{
+    background: #0a58ca;
 }
 
 /*skill*/
@@ -980,7 +988,7 @@ transition: transform 0.3s ease;
 }
  /*footer*/
  #footer{
-  background-color: #F2F5FF;
+  background-color: #0a58cad4;
   padding: 55px 0px 45px 0px;
  }
  #divfooter{
@@ -999,7 +1007,7 @@ transition: transform 0.3s ease;
  }
  #footerlista ul{
     list-style-type: none;
-    color:#575757 ;
+    color:#adb5bd ;
     font-family: "Work Sans", Sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1091,12 +1099,15 @@ flex-direction: column;
         padding:0px;
         margin:0px;
       }
-      
+      #canvas{
+        height: 928vh !important;
+      }
     .header{
         max-width: 390px;
     }
     .titulo{
         padding-left: 15px;
+        
     }
     .botoncontact{
         display: none;
@@ -1255,6 +1266,7 @@ margin-top: 40px;
 .movil{
     display:block !important;
 }
+
 }
 
 
@@ -1318,7 +1330,7 @@ margin-top: 40px;
 	top:0;
 	width: 30px;
 	height: 5px;
-	background: #1663cc;
+	background: #000000;
 	transition: all .3s ease;
 }
 .btn_span:nth-child(2) {
@@ -1358,11 +1370,14 @@ margin-top: 40px;
 	right: -100vw;
 	width: 100%;
 	height: 65vh;
-	background: #434343;
+	background: #052c65;
 	transition: all .5s ease;
 	z-index: 2;
   
 }
+.container_flex a {
+    color: #adb5bd !important;
+} 
 
 #btn_menu:checked ~ .container_flex .container_menu {
 	right: 0;
@@ -1375,7 +1390,7 @@ margin-top: 40px;
 	background-color: #1f242b;
    
 	width: 100%;
-	height: 428vh;	
+	height: 406vh;	
   position: absolute;
   
 }
