@@ -10,7 +10,7 @@ body{
     margin: 0;
   
 }
-#headerpadre{
+#inicio{
     width: 100%;
     background-color: #0a58cad4;
 }
@@ -368,7 +368,7 @@ flex-wrap: wrap;
     background-color: #25D366;
 }
 /* principio expereriencia */
-#sectionexperiencia{
+#experiencia{
     padding-top: 30px;
     padding-bottom: 20px;
 
@@ -686,7 +686,7 @@ width: 10%;
     margin-bottom: 0px;
     padding: 20px 40px 20px 40px;
 }
-#sectioneducacion{
+#educacion{
 padding-top: 30px;
     padding-bottom: 20px;
     opacity: 0;
@@ -987,7 +987,7 @@ transition: transform 0.3s ease;
     border-top: 1px solid #eaeaea;
 }
  /*footer*/
- #footer{
+ #contacto{
   background-color: #3374d3;
   padding: 55px 0px 45px 0px;
   position: relative;
@@ -1008,7 +1008,7 @@ transition: transform 0.3s ease;
  }
  #footerlista ul{
     list-style-type: none;
-    color:#adb5bd ;
+    color:#e9ecef ;
     font-family: "Work Sans", Sans-serif;
     font-size: 15px;
     font-weight: 400;
