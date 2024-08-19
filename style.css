@@ -12,7 +12,7 @@ body{
 }
 #inicio{
     width: 100%;
-    background-color: #0a58cad4;
+    background-color: #0d4faf;
 }
 .header{
     display: flex;
@@ -170,7 +170,7 @@ margin-right: 10px;
     #botonhire{
 width: 150px;
 height: 52px;
-background-color:black;
+background-color:#093c85;
 border-color: #0a58ca;
 border-style: solid;
  border-width: 1px 1px 1px 1px;
@@ -255,7 +255,7 @@ overflow: hidden;
          /* El enlace ocupa todo el ancho del div */
     }
     #botondown:hover a {
-        color: #088cd8;
+        color: #0d4faf;
     }
 .elementoizq{
         width: 50%; 
@@ -586,7 +586,7 @@ width: 10%;
 
 .expparrafo ul{
     text-align: justify;
-    color: #adb5bd;
+    color: #495057;
     font-family: "Work Sans", Sans-serif;
     font-size: 16px;
     box-sizing: border-box;
