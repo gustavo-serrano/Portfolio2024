@@ -1267,6 +1267,9 @@ margin-top: 40px;
 .movil{
     display:block !important;
 }
+#reportespbi{
+    height: 880px !important;
+}
 
 }
 
@@ -1404,4 +1407,14 @@ margin-top: 40px;
  margin: 0;
  z-index: -1;
   
+}
+/*reportes power bi*/
+#reportespbi{
+    display: flex;
+    flex-direction: column;
+   max-width: 1140px;
+   height: 2132px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 15px;
 }
