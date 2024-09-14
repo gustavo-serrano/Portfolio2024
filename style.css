@@ -12,7 +12,7 @@ body{
 }
 #inicio{
     width: 100%;
-    background-color: #46a7fb;
+    background-color: #3874e9;
 }
 .header{
     display: flex;
@@ -120,7 +120,7 @@ margin-right: 10px;
 
 /*fin de header*/
 .presentacion{
-    background-color: #01327b;
+    background-color: #072756;
     padding-top: 40px;
     padding-bottom: 60px;
     display: flex; 
