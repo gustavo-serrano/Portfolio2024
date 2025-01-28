@@ -473,6 +473,11 @@ width: 10%;
    
    
 }
+.expicon #logo-tecno{
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
 .expicon #logo-amesud{
     width: 150px;
     display: block;
@@ -516,7 +521,7 @@ width: 10%;
      width: 100%;
      text-align: right;
     box-sizing: border-box;
-    right: -170px;
+    right: -183px;
     position:relative;
     
 
@@ -534,7 +539,7 @@ width: 10%;
     width: 100%;
     text-align: right;
    box-sizing: border-box;
-   right: -175px;
+   right: -172px;
    position:relative; 
 }
 .expfechaizq2 span{
@@ -552,10 +557,17 @@ width: 10%;
     width: 100%;
     text-align: left;
    box-sizing: border-box;
-   left: -152px;
+   left: -151px;
    position:relative; 
 }
-.expfechader span{
+.expfechader2{
+    width: 100%;
+    text-align: left;
+   box-sizing: border-box;
+   left: -160px;
+   position:relative; 
+}
+.expfechader span, .expfechader2 span{
     font-size: 12px;
     color:#adb5bd; 
     font-weight: bold;
@@ -1092,7 +1104,7 @@ flex-direction: column;
    }
 }
 /*media query mobile*/
-@media(max-width:413px){
+@media(max-width:670px){
     
     
     html,body {
@@ -1114,7 +1126,7 @@ flex-direction: column;
         display: none;
     }
     .presentacion{
-        max-width: 390px;
+        
         padding-top: 25px;
     }
     .h2roll{
